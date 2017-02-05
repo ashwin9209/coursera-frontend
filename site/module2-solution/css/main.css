@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, Tahoma, sans-serif;
+}
+
+#heading {
+    text-align: center;
+    margin: 30px;
+    font-size: 1.75em;
+}
+
+.container {
+    width: 100%;
+}
+
+@media (min-width: 992px) {
+
+    .col-lg-3 {
+        width: 31%;
+    }
+
+    .menuitem {
+        margin: 10px;
+        float: left;
+        border: 2px solid black;
+        background-color: gray;
+    }
+
+    .menuitem div {
+        float: right;
+        font-size: 1.35em;
+        border-left: 2px solid black;
+        border-bottom: 2px solid black;
+        padding: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-align: center;
+        background-color: #ff89ff;
+    }
+
+    .menuitem p {
+        padding: 20px;
+        clear: right;
+        overflow: auto;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .col-md-6 {
+        width: 47.3%;
+    }
+
+    .col-md-12 {
+        width: 97%;
+    }
+
+    .menuitem {
+        margin: 10px;
+        float: left;
+        border: 1px solid black;
+        background-color: gray;
+    }
+
+    .menuitem div {
+        float: right;
+        font-size: 1.35em;
+        border: 1px solid black;
+        padding: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-align: center;
+    }
+
+    .menuitem p {
+        padding: 20px;
+        clear: right;
+        overflow: auto;
+    }
+}
+
+@media (max-width: 767px) {
+ 
+    .menuitem {
+        margin: 10px;
+        float: left;
+        border: 2px solid black;
+        width: 97%;
+        background-color: gray;
+    }
+
+    .menuitem div {
+        float: right;
+        font-size: 1.35em;
+        border: 1px solid black;
+        padding: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-align: center;
+    }
+
+    .menuitem p {
+        padding: 20px;
+        clear: right;
+        overflow: auto;
+    }   
+
+}
+
+#section1 {
+    background-color: #ff89ff;
+    font-weight: bold;
+}
+
+#section2 {
+    background-color: #f22828;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#section3 {
+    background-color: #eaf628;
+    font-weight: bold;
+}
